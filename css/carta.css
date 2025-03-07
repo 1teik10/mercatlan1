@@ -1,0 +1,51 @@
+/** Tarjetas Restaurante **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    background-color: #f7c5e3;
+    color: #f03faa;
+}
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-2.carta{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.plato-carta{
+  display: flex;
+  align-items: center;
+  border: 1px solid #f03faa;
+  border-radius: 6px;
+}
+
+.img-plato-carta{
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+}
+
+.img-plato-carta img{
+  max-width: 100px;
+  max-height: 75px;
+}
+
+.title-plato-carta{
+  border: 1px solid #f7c5e3;
+  border-bottom: none;
+  border-top: none;
+  flex-basis: 60%;
+  padding: 0 1rem;
+}
+
+.precio-plato-carta{
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+  font-weight: bold;
+}
